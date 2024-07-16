@@ -9,7 +9,7 @@ for (let name of names) {
   console.log(`This Place is known as ${name}`)
 }
 
-const TheNames = names.filter((name) => name.startsWith("The"))
+const TheNames = names.filter((name) => name.startsWith("The")) //can also use name.includes("The")
 // console.log(`${TheNames}`)
 
 for (let TheName of TheNames ) {

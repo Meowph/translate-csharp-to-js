@@ -76,5 +76,5 @@ public class Enemy
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public bool IsReallyHated { get; set; }
-    public List<string> Offenses { get; set; }
+    public List/Array <string> Offenses { get; set; }
 }
